@@ -11,6 +11,19 @@
 		B26DDA472BCDF0640015C980 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA462BCDF0640015C980 /* ContentView.swift */; };
 		B26DDA492BCDF0660015C980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26DDA482BCDF0660015C980 /* Assets.xcassets */; };
 		B26DDA4C2BCDF0660015C980 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26DDA4B2BCDF0660015C980 /* Preview Assets.xcassets */; };
+		B26DDA542BCDF0750015C980 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA532BCDF0750015C980 /* Home.swift */; };
+		B26DDA592BCDF0D60015C980 /* ArticlesDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA582BCDF0D60015C980 /* ArticlesDataService.swift */; };
+		B26DDA5B2BCDF0E10015C980 /* ArticlesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA5A2BCDF0E10015C980 /* ArticlesDataModel.swift */; };
+		B26DDA5D2BCDF1020015C980 /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA5C2BCDF1020015C980 /* ArticlesViewModel.swift */; };
+		B26DDA602BCDF1310015C980 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA5F2BCDF1310015C980 /* NewsView.swift */; };
+		B26DDA622BCDF14A0015C980 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA612BCDF14A0015C980 /* DetailsView.swift */; };
+		B26DDA642BCDF1580015C980 /* HeadlineImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA632BCDF1580015C980 /* HeadlineImage.swift */; };
+		B26DDA672BCDF1720015C980 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B26DDA662BCDF1720015C980 /* SDWebImageSwiftUI */; };
+		B26DDA6A2BCDF1D10015C980 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA692BCDF1D10015C980 /* NetworkManager.swift */; };
+		B26DDA6C2BCDF1E20015C980 /* TimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA6B2BCDF1E20015C980 /* TimeConverter.swift */; };
+		B26DDA6F2BCDF3F50015C980 /* AnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA6E2BCDF3F50015C980 /* AnimationState.swift */; };
+		B26DDA712BCDF4030015C980 /* AnimatedSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA702BCDF4030015C980 /* AnimatedSideBar.swift */; };
+		B26DDA732BCDF41F0015C980 /* ScrollModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26DDA722BCDF41F0015C980 /* ScrollModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,18 @@
 		B26DDA462BCDF0640015C980 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B26DDA482BCDF0660015C980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B26DDA4B2BCDF0660015C980 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B26DDA532BCDF0750015C980 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B26DDA582BCDF0D60015C980 /* ArticlesDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesDataService.swift; sourceTree = "<group>"; };
+		B26DDA5A2BCDF0E10015C980 /* ArticlesDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesDataModel.swift; sourceTree = "<group>"; };
+		B26DDA5C2BCDF1020015C980 /* ArticlesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
+		B26DDA5F2BCDF1310015C980 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		B26DDA612BCDF14A0015C980 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		B26DDA632BCDF1580015C980 /* HeadlineImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineImage.swift; sourceTree = "<group>"; };
+		B26DDA692BCDF1D10015C980 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B26DDA6B2BCDF1E20015C980 /* TimeConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConverter.swift; sourceTree = "<group>"; };
+		B26DDA6E2BCDF3F50015C980 /* AnimationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationState.swift; sourceTree = "<group>"; };
+		B26DDA702BCDF4030015C980 /* AnimatedSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSideBar.swift; sourceTree = "<group>"; };
+		B26DDA722BCDF41F0015C980 /* ScrollModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26DDA672BCDF1720015C980 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +77,12 @@
 		B26DDA432BCDF0640015C980 /* OrbitX */ = {
 			isa = PBXGroup;
 			children = (
+				B26DDA6D2BCDF3E90015C980 /* Extensions */,
+				B26DDA682BCDF1C90015C980 /* Managers */,
+				B26DDA552BCDF0780015C980 /* DataService */,
+				B26DDA562BCDF07E0015C980 /* Model */,
+				B26DDA522BCDF06B0015C980 /* Views */,
+				B26DDA572BCDF0820015C980 /* ViewModel */,
 				B26DDA442BCDF0640015C980 /* OrbitXApp.swift */,
 				B26DDA462BCDF0640015C980 /* ContentView.swift */,
 				B26DDA482BCDF0660015C980 /* Assets.xcassets */,
@@ -65,6 +97,84 @@
 				B26DDA4B2BCDF0660015C980 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B26DDA522BCDF06B0015C980 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B26DDA752BCDFF1E0015C980 /* OnBoarding */,
+				B26DDA742BCDFF180015C980 /* SplashScreen */,
+				B26DDA5E2BCDF1270015C980 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B26DDA552BCDF0780015C980 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				B26DDA582BCDF0D60015C980 /* ArticlesDataService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		B26DDA562BCDF07E0015C980 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B26DDA5A2BCDF0E10015C980 /* ArticlesDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B26DDA572BCDF0820015C980 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B26DDA5C2BCDF1020015C980 /* ArticlesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B26DDA5E2BCDF1270015C980 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B26DDA532BCDF0750015C980 /* Home.swift */,
+				B26DDA5F2BCDF1310015C980 /* NewsView.swift */,
+				B26DDA612BCDF14A0015C980 /* DetailsView.swift */,
+				B26DDA632BCDF1580015C980 /* HeadlineImage.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B26DDA682BCDF1C90015C980 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B26DDA692BCDF1D10015C980 /* NetworkManager.swift */,
+				B26DDA6B2BCDF1E20015C980 /* TimeConverter.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B26DDA6D2BCDF3E90015C980 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B26DDA6E2BCDF3F50015C980 /* AnimationState.swift */,
+				B26DDA702BCDF4030015C980 /* AnimatedSideBar.swift */,
+				B26DDA722BCDF41F0015C980 /* ScrollModifier.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B26DDA742BCDFF180015C980 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		B26DDA752BCDFF1E0015C980 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +193,9 @@
 			dependencies = (
 			);
 			name = OrbitX;
+			packageProductDependencies = (
+				B26DDA662BCDF1720015C980 /* SDWebImageSwiftUI */,
+			);
 			productName = OrbitX;
 			productReference = B26DDA412BCDF0640015C980 /* OrbitX.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +224,9 @@
 				Base,
 			);
 			mainGroup = B26DDA382BCDF0640015C980;
+			packageReferences = (
+				B26DDA652BCDF1720015C980 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = B26DDA422BCDF0640015C980 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +253,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26DDA6F2BCDF3F50015C980 /* AnimationState.swift in Sources */,
 				B26DDA472BCDF0640015C980 /* ContentView.swift in Sources */,
+				B26DDA542BCDF0750015C980 /* Home.swift in Sources */,
+				B26DDA6A2BCDF1D10015C980 /* NetworkManager.swift in Sources */,
+				B26DDA592BCDF0D60015C980 /* ArticlesDataService.swift in Sources */,
+				B26DDA732BCDF41F0015C980 /* ScrollModifier.swift in Sources */,
+				B26DDA602BCDF1310015C980 /* NewsView.swift in Sources */,
+				B26DDA6C2BCDF1E20015C980 /* TimeConverter.swift in Sources */,
+				B26DDA5B2BCDF0E10015C980 /* ArticlesDataModel.swift in Sources */,
+				B26DDA622BCDF14A0015C980 /* DetailsView.swift in Sources */,
+				B26DDA642BCDF1580015C980 /* HeadlineImage.swift in Sources */,
 				B26DDA452BCDF0640015C980 /* OrbitXApp.swift in Sources */,
+				B26DDA5D2BCDF1020015C980 /* ArticlesViewModel.swift in Sources */,
+				B26DDA712BCDF4030015C980 /* AnimatedSideBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +472,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B26DDA652BCDF1720015C980 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B26DDA662BCDF1720015C980 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B26DDA652BCDF1720015C980 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B26DDA392BCDF0640015C980 /* Project object */;
 }
